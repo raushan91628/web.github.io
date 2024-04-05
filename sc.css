@@ -1,0 +1,43 @@
+ .box
+        {
+          background-color: rgb(40, 54, 247);
+          color: white;
+          border-radius: 100%;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+         max-width: 55px;
+         margin-left: 115px;
+          font-size: 20px;
+          padding: 3%;
+        }
+        #frow
+        {
+          color: white;
+        }
+        #bv
+        {
+          width: 50rem;
+        }
+       body{
+          /* background-color:rgba(218, 220, 225, 0.304); */
+          overflow-x: hidden;
+        }
+        @media screen and(max-width:800px) {
+          #bv
+          {
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+          }
+          
+        }
+         @media only screen and(max-width:800px) {
+          #frow
+          {
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+          }
+          
+        }
